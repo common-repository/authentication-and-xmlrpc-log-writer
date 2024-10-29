@@ -1,0 +1,310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Authentication and xmlrpc log writer 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/authentication-"
+"and-xmlrpc-log-writer\n"
+"POT-Creation-Date: 2016-09-21 16:19+0200\n"
+"PO-Revision-Date: 2016-09-21 16:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: Federico Rota <rota.federico@gmail.com>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+
+#: admin/admin-class.php:35
+msgid "AX Log Writer Settings"
+msgstr "AX Log Writer Impostazioni"
+
+#: admin/admin-class.php:36
+msgid "AX Log Writer"
+msgstr ""
+
+#: admin/admin-class.php:46 admin/admin-class.php:47
+msgid "Custom Log Viewer"
+msgstr "Visualizzatore Log"
+
+#: admin/admin-class.php:67
+msgid "AX LogWriter Settings"
+msgstr " Impostazioni AX Log Writer"
+
+#: admin/admin-class.php:101
+msgid "AX Log Writer - Custom Log Viewer"
+msgstr "AX Log Writer - Vsiualizzatore Log"
+
+#: admin/admin-class.php:106
+#, php-format
+msgid "Here are the last %s rows of your Custom Log"
+msgstr "Qui le ultime %s righe del tuo Log PERSONALIZZATO"
+
+#: admin/admin-class.php:107
+msgid "How many lines to display?"
+msgstr "Quante righe da mostrare?"
+
+#: admin/admin-class.php:150
+msgid "Great!! Log is empty :)"
+msgstr "Gradioso!! Il log è vuoto :)"
+
+#: admin/admin-class.php:157
+msgid ""
+"Unable to display Custom Log. File not exists. It will be created at the "
+"first occurence"
+msgstr ""
+"Impossibile visualizzare il Log. Il file non esiste. Verrà creato alla prima "
+"occorrenza"
+
+#: admin/admin-class.php:164
+msgid ""
+"Unable to display Custom Log. This feature is only available in CUSTOM mode."
+msgstr ""
+"Impossibile visualizzare il Log. Questa funzionalità è disponibile solo per "
+"l'opzione \"PERSONALIZZATO\" del tipo di errore"
+
+#: admin/admin-class.php:188
+msgid "General Settings"
+msgstr "Impostazioni Generali"
+
+#: admin/admin-class.php:195
+msgid "Error Type"
+msgstr "Tipo di Errore"
+
+#: admin/admin-class.php:203
+msgid "CUSTOM Error Log Path (only for CUSTOM error type)"
+msgstr ""
+"Path PERSONALIZZATA del file di Log (solo per tipo di errore \"PERSONALIZZATO"
+"\")"
+
+#: admin/admin-class.php:211
+msgid "CUSTOM Error Log Name (only for CUSTOM error type)"
+msgstr ""
+"Nome PERSONALIZZATO del file di Log (solo per tipo di errore \"PERSONALIZZATO"
+"\")"
+
+#: admin/admin-class.php:219
+msgid "TIMEZONE"
+msgstr ""
+
+#: admin/admin-class.php:227
+msgid "Security Settings"
+msgstr "Impostazioni di Sicurezza"
+
+#: admin/admin-class.php:234
+msgid "Pingback Request Log"
+msgstr "Log PingBack"
+
+#: admin/admin-class.php:242
+msgid "Stop User Enumeration"
+msgstr "Blocca la Lista degli Autori"
+
+#: admin/admin-class.php:250
+msgid "Remove WP version and generator tag"
+msgstr "Rimuovi il numero di versione Wordpress e il meta \"generator\""
+
+#: admin/admin-class.php:258
+msgid "Kill multiple xmlrpc request on xmlrpc login error"
+msgstr "Blocca la richiesta xmlrpc per autenticazioni non valide"
+
+#: admin/admin-class.php:266
+msgid "Disable xmlrpc authenticated methods"
+msgstr "Diabilita i metodi xmlrpc che richiedono autenticazione"
+
+#: admin/admin-class.php:294 admin/admin-class.php:307
+msgid "Please select a valid VALUE for Error Type"
+msgstr "Selezionare un valore valido per il campo \"Tipo di Errore\""
+
+#: admin/admin-class.php:329
+msgid "Please enter a valid VALUE for CUSTOM Error Log Path"
+msgstr ""
+"Indicare un valore valido per il campo \"Path PERSONALIZZATA del file di Log"
+"\""
+
+#: admin/admin-class.php:340
+msgid "CUSTOM Error Log Path not exist or is not writable"
+msgstr "La Path PERSONALIZZATA del file di log non esiste o non è scrivibile"
+
+#: admin/admin-class.php:361
+msgid "Please enter a valid VALUE for CUSTOM Error Log Name"
+msgstr ""
+"Indicare un valore valido per il campo \"Nome PERSONALIZZATO del file di Log"
+"\""
+
+#: admin/admin-class.php:382
+msgid "Please enter a valid VALUE for TIMEZONE"
+msgstr "Indicare un valore valido per il campo \"TIMEZONE\""
+
+#: admin/admin-class.php:396
+msgid "Please select a valid VALUE for TIMEZONE"
+msgstr "Selezionare un valore per il campo \"TIMEZONE\""
+
+#: admin/admin-class.php:419
+msgid "Please enter a valid VALUE for Pingback Request Log"
+msgstr "Indicare un valore valido per il campo \"Log PingBack\""
+
+#: admin/admin-class.php:441
+msgid "Please enter a valid VALUE for Stop User Enumeration"
+msgstr ""
+"Indicare un valore valido per il campo \"Blocca la Lista degli Autori\""
+
+#: admin/admin-class.php:463
+msgid "Please enter a valid VALUE for Remove WP version and generator tag"
+msgstr ""
+"Indicare un valore valido per il campo \"Rimuovi il numero di versione "
+"Wordpress e il meta generator\""
+
+#: admin/admin-class.php:485
+msgid ""
+"Please enter a valid VALUE for Kill multiple xmlrpc request on xmlrpc login "
+"error"
+msgstr ""
+"Indicare un valore valido per il campo \"Blocca la richiesta xmlrpc per "
+"autenticazioni non valide\""
+
+#: admin/admin-class.php:507
+msgid "Please enter a valid VALUE for Disable xmlrpc authenticated methods"
+msgstr ""
+"Indicare un valore valido per il campo \"Diabilita i metodi xmlrpc che "
+"richiedono autenticazione\""
+
+#: admin/admin-class.php:527
+msgid "Enter your settings below:"
+msgstr "Indica le tue impostazioni di seguito:"
+
+#: admin/admin-class.php:532
+msgid "Enter your additional security settings below:"
+msgstr "Indica le tue impostazioni di sicurezza di seguito:"
+
+#: admin/admin-class.php:541
+msgid "SYSTEM"
+msgstr ""
+
+#: admin/admin-class.php:541
+msgid "log will be written by SYSLOG"
+msgstr "il log verrà scritto tramite il SYSLOG"
+
+#: admin/admin-class.php:542
+msgid "APACHE"
+msgstr ""
+
+#: admin/admin-class.php:542
+msgid "log will be written by APACHE error log"
+msgstr "il log verrà scritto nell'error log di APACHE"
+
+#: admin/admin-class.php:543
+msgid "CUSTOM"
+msgstr "PERSONALIZZATO"
+
+#: admin/admin-class.php:543
+msgid "log will be written into setted CUSTOM Error Log Path"
+msgstr "il log verrà scritto nella path PERSONALIZZATA definita"
+
+#: admin/admin-class.php:552
+msgid "use this to set where the log will be written"
+msgstr "utilizzalo per impostare dove sarà scritto il file di Log"
+
+#: admin/admin-class.php:573
+msgid ""
+"this path will be used in CUSTOM mode. This path must exist and must be "
+"writable. E.g."
+msgstr ""
+"questa path verrà utilizzata se impostato il tipo di errore su "
+"\"PERSONALIZZATO\". Deve esistere e essere scrivibile. Es."
+
+#: admin/admin-class.php:573
+msgid "/your/custom/path/"
+msgstr "/la/tua/path/personalizzata/"
+
+#: admin/admin-class.php:612
+msgid "Used to prevent WP timezone bug. Use your current server timezone."
+msgstr ""
+"Usato per prevenire il bug di WP relativo al timezone. Utilizza il timezone "
+"corrente del tuo server."
+
+#: admin/admin-class.php:623
+msgid "Check if you want to log each pingback request."
+msgstr ""
+"Spunta la casella se desideri effettuare il log di ogni richiesta di PingBack"
+
+#: admin/admin-class.php:634
+msgid ""
+"Check if you want to stop and log user enumeration. Hackers use User "
+"Enumeration method to get your username."
+msgstr ""
+"Spunta la casella se vuoi bloccare e loggare ogni richiesta di Lista degli "
+"Autori dei post. Metodo usato dagli hackers per individuare il nome degli "
+"utenti del sito."
+
+#: admin/admin-class.php:645
+msgid ""
+"Check if you want to remove from your site the WordPress version number and "
+"meta \"generator\"."
+msgstr ""
+"Spunta la casella se vuoi rimuovere dalla sezione Head del tuo sito la "
+"versione di Wordpress e il meta \"generator\"."
+
+#: admin/admin-class.php:656
+msgid ""
+"Check if you want to kill multiple requests in a single xmlrpc call "
+"returning 401 code on xmlrpc login error ( stop brute force by xmlrpc )."
+msgstr ""
+"Spunta la casella se vuoi bloccare le richieste multiple in una singola "
+"chiamata xmlrpc con codice di errore 401 ad autenticazione fallita ( blocca "
+"l'attacco brute force tramite xmlrpc )."
+
+#: admin/admin-class.php:667
+msgid ""
+"Check if you want to disable all xmplrpc methods that requires "
+"authentication ( to avoid brute force by xmlrpc )."
+msgstr ""
+"Spunta la casella se vuoi disabilitare tutti i metodi xmlrpc che richiedono "
+"autenticazione ( per scongiurare attacchi brute force tramite xmlrpc )"
+
+#: includes/plugin-class.php:179
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/plugin-class.php:197
+msgid "Home"
+msgstr ""
+
+#: includes/plugin-class.php:198
+msgid "FAQ"
+msgstr ""
+
+#: includes/plugin-class.php:199
+msgid "Support"
+msgstr "Supporto"
+
+#: includes/plugin-class.php:200
+msgid "Rate"
+msgstr "Recensioni"
+
+#: includes/plugin-class.php:201
+msgid "Donate"
+msgstr "Dona"
+
+#~ msgid "Log each pingback request"
+#~ msgstr "PingBack Log"
+
+#~ msgid "Please enter a valid VALUE for Log each pingback request"
+#~ msgstr ""
+#~ "Indicare un valore valido per il campo \"Effettua il log di ogni "
+#~ "richiesta di PingBack\""
+
+#~ msgid ""
+#~ "this path will be used in CUSTOM mode. This path must exist and must be "
+#~ "writable. E.g. "
+#~ msgstr ""
+#~ "questo percorso sarà usato solo per il tipo di errore PERSONALIZZATO"
+
+#~ msgid "Here are the last"
+#~ msgstr "Queste sono le ultime"
+
+#~ msgid "rows of your Custom Log"
+#~ msgstr "righe del tuo Log"

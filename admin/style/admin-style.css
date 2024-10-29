@@ -1,0 +1,33 @@
+.axlw_admin_logviewer_content {
+margin: 0 auto;
+padding: 0 2em;
+margin-bottom: 50px;
+line-height: 1.6em;
+background-color:white;
+}
+.axlw_admin_logviewer_content code {
+background:none;
+}
+.axlw_admin_logviewer_header {
+margin: 0;
+color: #333;
+text-align: center;
+padding: 2.5em 2em;
+border-bottom: 1px solid #eee;
+}
+.axlw_admin_logviewer_header h2 {
+margin: 0.2em 0;
+font-size: 3em;
+font-weight: 300;
+}
+.axlw_admin_logviewer_header h3 {
+font-weight: 300;
+color: #666;
+padding: 0;
+margin-top: 0;
+}
+.axlw_admin_logviewer_content-subhead {
+margin: 50px 0 20px 0;
+font-weight: 300;
+color: #888;
+}
